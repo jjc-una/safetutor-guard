@@ -1,0 +1,21 @@
+[project]
+name = "safetutor-guard"
+version = "0.1.0"
+description = "Security middleware gateway for an AI tutoring assistant"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --strict-markers"
+markers = [
+    "acceptance: maps directly to an acceptance criterion in README.md",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S"]
+ignore = ["S101"]

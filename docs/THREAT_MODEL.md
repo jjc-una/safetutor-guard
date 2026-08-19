@@ -1,0 +1,24 @@
+# Threat Model: SafeTutor Guard
+
+Status: skeleton. Completed on day 2.
+
+## Assets
+1.
+2.
+3.
+
+## Trust boundaries
+Draw the boundary diagram first, then fill this in.
+
+## Attack classes
+
+| ID | Class | Attacker | Entry point | Impact | OWASP mapping |
+|----|-------|----------|-------------|--------|---------------|
+| T1 | | | | | |
+| T2 | | | | | |
+| T3 | | | | | |
+| T4 | | | | | |
+| T5 | | | | | |
+| T6 | | | | | |
+| T7 | | | | | |
+| T8 | | | | | |
